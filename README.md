@@ -1,6 +1,7 @@
 # Programacion-Componenentes-Web
 Repositorio de Laboratorios PIC
-# Proyecto: Componentes Web Personalizados
+
+## Proyecto: Componentes Web Personalizados
 
 Este proyecto es una aplicación modular que utiliza **Web Components** para crear interfaces dinámicas y reutilizables. Incluye una galería de imágenes de Pokémon, una tabla interactiva que consume datos de una API y un perfil personal estilizado.
 
@@ -21,6 +22,7 @@ Este componente sirve como contenedor principal para la aplicación y organiza l
 - Fondo con degradado y bordes estilizados.
 
 ---
+
 ### 2. **SocialProfileComponent**
 Un componente que muestra un perfil estático con información personal básica.
 
@@ -31,11 +33,10 @@ Un componente que muestra un perfil estático con información personal básica.
 
 #### Ejemplo de Uso:
 Agrega el componente personalizado en tu archivo HTML:
-```html
+
 <social-profile></social-profile>
 
-### 3 CustomTableComponent
-
+### 3. **CustomTableComponent**
 Un componente de tabla dinámica que consume datos de una API y los muestra en un formato tabular.
 
 #### Características:
@@ -45,9 +46,7 @@ Un componente de tabla dinámica que consume datos de una API y los muestra en u
 
 #### Uso:
 
-   ```html
-   <custom-table api-endpoint="https://jsonplaceholder.typicode.com/users"></custom-table>
-
+<custom-table api-endpoint="https://jsonplaceholder.typicode.com/users"></custom-table>
 
 ### 4. **GalleryComponent**
 Una galería dinámica que muestra imágenes de Pokémon obtenidas de la API de PokeAPI.
@@ -62,6 +61,4 @@ Una galería dinámica que muestra imágenes de Pokémon obtenidas de la API de 
 #### Ejemplo de Uso:
 Agrega la etiqueta personalizada en tu archivo HTML para mostrar la galería:
 
-```html
 <my-gallery></my-gallery>
-
